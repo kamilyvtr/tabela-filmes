@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes Favoritos</title>  
+    <link rel="icon" href="favicon_io (3)/android-chrome-192x192.png" type="image/x-icon"> 
+    <style> 
+    
+table {
+  width: 100%; 
+  border-collapse: collapse;
+}
+th {
+  background-color: #cc6600; 
+  color: white; 
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold; 
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  font-size: 14px;
+  color: #333333; 
+  text-align: center;
+  font-weight: bold; /
+}
+
+td:first-child {
+  background-color: #cc6600; 
+  color: white; 
+  font-weight: bold;
+}
+a {
+  color: #800080; 
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  td, th {
+    font-size: 12px; 
+    padding: 8px; 
+  }
+}
+  
+
+th, td {
+    padding: 10px; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+}
+th { color: #DAA520; 
+    font-weight: bold;
+    font-style: italic;
+    background-color: #D2691E; 
+    color: white; 
+    
+}
+a {
+    color: #8A2BE2; 
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline;
+} 
+
+td:nth-child(2) { 
+    color: #00063a; 
+    font-weight: bold;
+    font-style: italic; } 
+    </style> 
+    <!--td:nth-child(2): Aplica o estilo à segunda célula (td) em cada linha, onde estão os nomes dos filmes-->
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3" scope="colgroup">Mulheres</th>
+                <th colspan="4">Filme</th>
+                <th colspan="3">Informações</th>
+            </tr>
+            <tr>
+                <th>Nome</th> 
+                <th>Capa</th> 
+                <th>Trailer</th>
+                <th>Sinopse</th>
+                <th>Pontos Fortes</th>
+                <th>Pontos Fracos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Ana Maria Santos</th>
+                <td>Aliens</td>
+        <td><img src="1413432193-alien-romulus-poster-scaled.webp" alt="" width="100"></td>
+        <td><a href="https://youtu.be/-Eu7XVppK6Q?si=CEqLauW6U2UO9Wgy" target="_blank">Ver Trailer</a></td>
+                <td>Uma equipe enfrenta uma raça alienígena perigosa. Muita ação e tensão</td>
+                <td>Suspense e ação incríveis.</td>
+                <td>Alguns podem achar o enredo repetitivo.</td>
+            </tr>
+            <tr>
+                <th scope="row">Beatriz Souza</th>
+                <td>Hulk</td>
+                <td><img src="21048566_20131010182211313.webp" alt="Capa Hulk" width="100"></td> 
+                <td><a href="https://youtu.be/xbqNb2PFKKA?si=0-nSNJfoCUoGamOv" target="_blank">Ver Trailer</a></td>
+                <td>Um cientista se transforma em uma criatura verde ao se irritar</td>
+                <td>Ótimos efeitos especiais.</td>
+                <td>Enredo previsível.</td>
+            </tr>
+            <tr>
+                <th scope="row">Cláudia Melo</th>
+                <td>Matrix</td>
+                <td><img src="20128877.JPG" alt="Capa Matrix" width="100"></td> 
+                <td><a href="https://www.youtube.com/watch?v=2KnZac176Hs&pp=ygUOdHJhaWxlciBtYXRyaXg%3D" target="_blank">Ver Trailer</a></td>
+                <td>Um hacker descobre uma realidade simulada</td>
+                <td>Inovador e visualmente impactante</td>
+                <td>Complexidade que pode confundir</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th rowspan="3" scope="colgroup">Homens</th>
+                <th colspan="4">Filme</th>
+                <th colspan="3">Informações</th>
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>Capa</th> 
+                <th>Trailer</th>
+                <th>Sinopse</th>
+                <th>Pontos Fortes</th>
+                <th>Pontos Fracos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Bruno Mendonça</th>
+                <td>Intocáveis</td>
+                <td><img src="intocaveis.jpg" alt="" width="100"></td> 
+                <td><a href="https://www.youtube.com/watch?v=-Fb8h4gChlU&pp=ygUTdHJhaWxlciBpbnRvY8OhdmVpcw%3D%3D">Ver Trailer</a></td>
+                <td>Uma amizade improvável entre um cuidador e um aristocrata</td>
+                <td>Emocionante e inspirador.</td>
+                <td>Pode parecer clichê para alguns.</td>
+            </tr>
+            <tr>
+                <th scope="row">Daniel Lourenço</th>
+                <td>Gladiador</td>
+                <td><img src="GladiadorPoster.jpg" alt="" width="100"></td> 
+                <td><a href="https://www.youtube.com/watch?v=thfURRSQzdw&pp=ygUTdHJhaWxlciBnbGFkaWFkb3IgMg%3D%3D"> Ver Trailer</a></td>
+                <td>Um general romano busca vingança</td>
+                <td>Excelente atuação e cenários</td>
+                <td>Trama previsível em certos momentos</td>
+            </tr>
+            <tr>
+                <th scope="row">Fabiano Motta</th>
+                <td>Taxi Driver</td>
+                <td><img src="Taxi_Driver_(1976_film_poster).jpg" alt="" width="100"></td> 
+                <td><a href="https://www.youtube.com/watch?v=T5IligQP7Fo&pp=ygUTdHJhaWxlciB0YXhpIGRyaXZlcg%3D%3D">Ver Trailer</a></td>
+                <td>Um motorista em Nova York enfrenta uma crise existencial</td>
+                <td>História profunda e marcante</td>
+                <td>Temas pesados para alguns espectadores.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
